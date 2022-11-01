@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+	<head>
+		<!--- basic page needs
+		================================================== -->
+		<meta charset="utf-8">
+		<title>Cinema Cloud App</title>
+		<meta name="description" content="Pagina web para información sobre nuestra aplicación de ver y descargar Películas y Series en linea, daremos instrucciones de como descargar e instalar en sus dispositivos.">
+		<meta name="author" content="cinemacloudapp@gmail.com">
+
+		<!-- mobile specific metas
+		================================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- CSS
+		================================================== -->
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/vendor.css">
+		<link rel="stylesheet" href="css/main.css">
+		<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+
+		<!-- script
+		================================================== -->
+		<script src="js/modernizr.js"></script>
+		<script src="js/pace.min.js"></script>
+
+		<!-- favicons
+		================================================== -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-BLG4DELY1L"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-BLG4DELY1L');
+		</script>
+		
+	</head>
+
+	<body id="top">
+		<!-- preloader
+		================================================== -->
+		<div id="preloader">
+			<div id="loader" class="dots-jump">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<!-- header 
+		================================================== -->
+		<header class="s-header">
+			<div class="row">
+				<div class="header-logo">
+					<a class="site-logo" href="index.html">
+						<img src="images/logo1.png" alt="Homepage" width="100%">
+					</a>
+				</div>
+		
+				<nav class="header-nav-wrap">
+					<ul class="header-main-nav">
+						<li class="current"><a class="smoothscroll" href="#home" title="intro">Inicio</a></li>
+						<li><a class="smoothscroll" href="#about" title="about">Sobre Nosotros</a></li>
+						<li><a class="smoothscroll" href="#features" title="features">Características</a></li>
+						<li><a class="smoothscroll" href="#download" title="download">Descargar</a></li>	
+					</ul>
+		
+					<div class="header-cta">
+						<a href="apk/CinemaCloud-v1.2.2.apk" class="btn btn--primary header-cta__btn">Descargar v1.2.2</a>
+					</div>
+				</nav> <!-- end header-nav-wrap -->
+		
+				<a class="header-menu-toggle" href="#"><span>Menu</span></a>
+			</div>
+		</header> <!-- end header -->
+
+		<!-- home
+		================================================== -->
+		<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+			<div class="shadow-overlay"></div>
+			<div class="home-content">
+				<div class="row home-content__main">
+					<div class="home-content__left">
+						<h1>
+						Cinema Cloud<br>
+						Una aplicación increíble <br>
+						</h1>
+		
+						<h3>
+						Una de las mejores aplicaciones donde podras ver peliculas, series, anime, documentales y contenido para adultos tanto en español, ingles, francés, árabe entre otros.
+						</h3>
+		
+						<div class="home-content__btn-wrap">
+							<a href="apk/CinemaCloud-v1.2.2.apk" class="btn btn--primary home-content__btn">Descargar v1.2.2</a>
+						</div>
+					</div> <!-- end home-content__left-->
+
+					<div class="home-content__right">
+						<img src="images/inicio.jpg" srcset="images/inicio.jpg 1x, images/categoria.jpg 2x">
+					</div> <!-- end home-content__right -->
+
+				</div> <!-- end home-content__main -->
+
+				<ul class="home-content__social">
+					<li><a href="#0" target="blank_">twitter</a></li>
+					<li><a href="https://www.youtube.com/channel/UCKimkz2Or6J36tDJL4k4Gbg" target="blank_">YouTube</a></li>
+					<li><a href="#0" target="blank_">Facebook</a></li>
+					<li><a href="#0" target="blank_">Instagram</a></li>
+				</ul>
+			</div> <!-- end home-content -->
+
+			<a href="#about" class="home-scroll smoothscroll">
+				<span class="home-scroll__text">Bajar</span>
+				<span class="home-scroll__icon"></span>
+			</a> 
+		</section> <!-- end s-home -->
+
+		<!-- about
+		================================================== -->
+		<section id="about" class="s-about target-section">
+			<div class="row section-header has-bottom-sep" data-aos="fade-up">
+				<div class="col-full">
+					<h1 class="display-1">
+						Simplemente una de las mejores aplicaciónes para ver Películas y Series en linea
+					</h1>
+					<p class="lead">
+						Disfruta de tu contenido favorito ya sean películas, series, anime, documentales y más, en varios idiomas con una interfaz fácil de usar tanto en tu celular como en tu Smart Tv.
+					</p>
+				</div>
+			</div> <!-- end section-header -->
+
+			<div class="row wide about-desc" data-aos="fade-up">
+				<div class="col-full slick-slider about-desc__slider">
+					<div class="about-desc__slide">
+						<h3 class="item-title">Intuitiva</h3>
+
+						<p>
+						Accedes, te mostramos el mejor contenido para ti según tus búsqueda y con solo un clic puedes empezar a ver tu contenido favorito.
+						</p>
+					</div>  <!-- end about-desc__slide -->
+
+					<div class="about-desc__slide">
+						<h3 class="item-title">Inteligente</h3>
+
+						<p>
+						Rastrea el mejor contenido de la web y lo organiza de forma facil de navegar.
+						</p>
+					</div>  <!-- end about-desc__slide -->
+
+					<div class="about-desc__slide">
+						<h3 class="item-title">Poderosa</h3>
+
+						<p>
+						Puedes instalar Cinema Cloud casi en todas partes, ya sea en tu telefono, table, Smart Tv o Tv Box con android.
+						</p>
+					</div>  <!-- end about-desc__slide -->
+
+					<div class="about-desc__slide">
+						<h3 class="item-title">Segura</h3>
+
+						<p>
+						No almacenamos información confidencial de nuestros usuarios.
+						</p>
+					</div>  <!-- end about-desc__slide -->
+				</div> <!-- end about-desc__slider -->
+			</div> <!-- end about-desc -->
+		</section> <!-- end s-about -->
+
+		<!-- about-how
+		================================================== -->
+		<section id="about-how" class="s-about-how">
+		
+			<div class="row process-wrap">
+				<h2 class="display-2 text-center" data-aos="fade-up">¿Cómo funciona la aplicación?</h2>
+				
+				<div class="process" data-aos="fade-up">
+					<div class="process__steps block-1-2 block-tab-full group">
+						<div class="col-block step">
+							<h3 class="item-title">Descargar el instalador</h3>
+							<p>Pulsando el botón Descargar en cualquier lugar que lo encuentres en esta web podrás descargar el archivo cinema-cloud.apk, es un archivo seguro de instalación de android. 
+							</p> 
+						</div>
+
+						<div class="col-block step">
+							<h3 class="item-title">Buscar el APK en nuestro dispositivo e instalar</h3>
+							<p>Localizar el archivo cinema-cloud.apk en el dispositivo a instalar (mayormente se guarda en descarga o download), darle a instalar y luego que finalice saldrá un botón llamado Abrir. 
+							</p> 
+						</div>
+				   
+						<div class="col-block step">
+							<h3 class="item-title">Disfrutar Aplicación</h3>
+							<p>Luego de haber encontrado lo que deseamos ver, acomodarnos, sacar las palomitas, el refresco y darle a Reproducir. 
+							</p> 
+						</div>
+
+						<div class="col-block step">
+							<h3 class="item-title">Mantente Actualizado</h3>
+							<p>Descarga la ultima actualización disponible para estar asegurados y al día de todo el contenido que tenemos para ustedes. 
+							</p> 
+						</div>
+					</div> <!-- end process__steps -->
+			   </div> <!-- end process -->
+			</div> <!-- end about-how -->
+		</section> <!-- end s-about-how -->
+
+		<!-- features
+		================================================== -->
+		<section id="features" class="s-features target-section">
+			<div class="row section-header has-bottom-sep" data-aos="fade-up">
+				<div class="col-full">
+					<h1 class="display-1">
+						Cargado con funciones que absolutamente le encantarían
+					</h1>
+					
+					<p class="lead">
+						Esta aplicación consta de las siguientes características, estas te harán amarla y tenerla como tu favorita a la hora de ver tus películas o series favoritas en casa.
+					</p>
+				</div>
+			</div> <!-- end section-header -->
+
+			<div class="row features block-1-3 block-m-1-2">
+				<div class="col-block item-feature" data-aos="fade-up">
+					<div class="item-feature__icon">
+						<i class="icon-upload"></i>
+					</div>
+					<div class="item-feature__text">
+						<h3 class="item-title">100% en la Nube</h3>
+						<p>La aplicación esta montada 100% en la nube, para asegurar la mayor disponibilidad posible del contenido para nuestros usuarios.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-block item-feature" data-aos="fade-up">
+					<div class="item-feature__icon">
+						<i class="icon-video-camera"></i>
+					</div>
+					<div class="item-feature__text">
+						<h3 class="item-title">Video y Sonido HD</h3>
+						<p>Tratamos de que el 100% del contenido este en HD tanto a nivel de video como de sonido.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-block item-feature" data-aos="fade-up">
+					<div class="item-feature__icon">
+						<i class="icon-tag"></i>
+					</div>  
+					<div class="item-feature__text">
+						<h3 class="item-title">Marcadores</h3>
+						<p>Puedes colocar marcadores a tu contenido para verlo mas tarde, marcarlo como visto, entre otros.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-block item-feature" data-aos="fade-up">
+					<div class="item-feature__icon">
+						<i class="icon-search"></i>
+					</div>
+					<div class="item-feature__text">
+						<h3 class="item-title">Buscar</h3>
+						<p>Podemos buscar el contenido que mas nos gusta por nombre en la opción Buscar.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-block item-feature" data-aos="fade-up">
+					<div class="item-feature__icon">
+						<i class="icon-chat"></i>
+					</div>
+					<div class="item-feature__text">
+						<h3 class="item-title">Categorías</h3>
+						<p>Opcion de filtrar el contenido que queremos buscar por categoría.
+						</p>
+					</div>
+				</div>
+		
+				<div class="col-block item-feature" data-aos="fade-up">
+					<div class="item-feature__icon">
+						<i class="icon-settings"></i>
+					</div>
+					<div class="item-feature__text">
+						<h3 class="item-title">Ajustes</h3>
+						<p>Opcion para cambiar idioma tanto del app como de los provedores de video, el tipo de contenido que prefieres ver y posibilidad de mostrar u ocultar el contenido para adultos.
+						</p>
+					</div>
+				</div>
+			</div> <!-- end features -->
+		</section> <!-- end s-features -->
+
+		<!-- download
+		================================================== -->
+		<section id="download" class="s-download target-section">
+			<div class="row section-header align-center" data-aos="fade-up">
+				<div class="col-full">
+					<h1 class="display-1">
+						Únase a nuestra comunidad de más de 1,000,000 de usuarios.
+					</h1>
+					<p class="lead">
+						Descarga nuestra aplicación y mantente al tanto de las series y películas que están en estreno.
+					</p>
+				</div>
+			</div> <!-- end section-header -->
+
+			<div class="row">
+				<div class="col-full text-center">
+					<ul class="download-badges" data-aos="fade-up">
+						<a href="apk/CinemaCloud-v1.2.2.apk" class="btn btn--primary header-cta__btn" style="background: #333;" target="blank_">Descargar</a>
+					</ul>
+				</div> 
+			</div>
+
+			<!--<div class="row download-bottom-image" data-aos="fade-up">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="images/splash.jpg" class="d-block w-100" alt="splash">
+				    </div>
+					  <div class="carousel-item active">
+				      <img src="images/inicio.jpg" class="d-block w-100" alt="inicio">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/categoria.jpg" class="d-block w-100" alt="categoria">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="images/peliculas.jpg" class="d-block w-100" alt="peliculas">
+				    </div>
+					  <div class="carousel-item">
+				      <img src="images/buscar.jpg" class="d-block w-100" alt="buscar">
+				    </div>
+					  <div class="carousel-item">
+				      <img src="images/ajustes.jpg" class="d-block w-100" alt="ajustes">
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Anterior</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Siguiente</span>
+				  </a>
+				</div>
+			</div>-->
+		</section> <!-- end s-download -->
+
+		<!-- footer
+		================================================== -->
+		<footer class="s-footer footer">
+			<div class="row section-header align-center">
+				<div class="col-full">
+					<h1 class="display-1">
+						Mantengámonos en contacto
+					</h1>
+					<p class="lead">
+					Suscribirte para recibir actualizaciones, ofertas especiales y otras cosas increíbles.
+					</p>
+				</div>
+			</div> <!-- end section-header -->
+
+			<div class="row footer__top">
+				<div class="col-full footer__subscribe end">
+					<div class="subscribe-form">
+						<form id="mc-form" class="group" novalidate="true">
+							<input type="email" value="" name="email" class="email" id="mc-email" placeholder="Correo Electrónico" required="">
+							<input type="submit" name="subscribe" value="Suscribirse">
+							<label for="mc-email" class="subscribe-message"></label>
+						</form>
+					</div>
+				</div>
+			</div> <!-- end footer__top -->
+
+			<div class="row footer__bottom">
+				<div class="footer__about col-five tab-full left">
+					<h4>Sobre Nosotros</h4>
+					
+					<p>
+						Pagina web para información sobre nuestra aplicación de ver y descargar Películas y Series en linea, daremos instrucciones de como descargar e instalar en sus dispositivos.
+					</p>
+
+					<ul class="footer__social">
+						<li><a href="#0"><i class="fab fa-instagram" aria-hidden="true" target="blank_"></i></a></li>
+						<li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true" target="blank_"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCKimkz2Or6J36tDJL4k4Gbg" target="blank_"><i class="fab fa-youtube" aria-hidden="true" target="blank_"></i></a></li>
+						<li><a href="#0"><i class="fab fa-twitter" aria-hidden="true" target="blank_"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="col-five md-seven tab-full right end">
+					<div class="row">
+						<div class="footer__site-links col-five mob-full">
+							<h4>Menu</h4>
+							<ul class="footer__site-links">
+								<li><a href="#home" class="smoothscroll">Inicio</a></li>
+								<li><a href="#about" class="smoothscroll">Sobre Nosotros</a></li>
+								<li><a href="#features" class="smoothscroll">Características</a></li>
+								<li><a href="#download" class="smoothscroll">Descargar</a></li>
+								<li><a href="#0">Política de Privacidad</a></li>
+							</ul>
+						</div>
+
+						<div class="footer__contact col-seven mob-full">
+							<h4>Contáctenos</h4>
+							<p>
+							¿Necesitas ayuda o tienes alguna pregunta sobre la aplicación? Contáctenos enviándonos un correo electrónico a: <br>
+							<a href="mailto:cinemacloudapp@gmail.com" class="footer__mail-link" target="blank_">cinemacloudapp@gmail.com</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-full ss-copyright">
+					<span>&copy; Cinema Cloud App 2022</span>
+				</div>
+			</div> <!-- end footer__bottom -->
+
+			<div class="go-top">
+				<a class="smoothscroll" title="Subir" href="#top"></a>
+			</div>
+		</footer> <!-- end s-footer -->
+
+		<!-- Java Script
+		================================================== -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+		<!--<script src="js/popper.min.js"></script>
+    		<script src="js/bootstrap.min.js"></script>-->
+	</body>
+</html>
